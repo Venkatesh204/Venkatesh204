@@ -1,42 +1,59 @@
+Here is the corrected **Connect** section for your `README.md`.
+
+I have formatted it with a standard, clickable text link which is the most reliable way to display it on GitHub.
+
+**Copy this code block:**
+
+```markdown
 # Vungarala Venkatesh
 ### 🤖 AI Developer & Automation Specialist
-*Building Autonomous Agents & RAG Pipelines with Python.*
+*Building RAG Systems & Autonomous Agents with Python & Google Gemini.*
 
 ---
 
 ### 🧠 Featured Project: Scholarly Synthesis Engine
-**An autonomous AI researcher that reads papers and writes manuscripts.**
+**An autonomous AI researcher that reads papers, verifies facts, and writes manuscripts.**
 
+#### 🏗️ Architecture Diagram
 ```text
-+-----------------+       +------------------+       +------------------+
-|  Data Sources   |       |  Knowledge Base  |       |   AI Workflow    |
-| (Semantic/Web)  |       |   (RAG System)   |       |  (Gemini Pro)    |
-+-------+---------+       +--------+---------+       +--------+---------+
-        |                          ^                          ^
-        | Fetch PDFs               | Store/Retrieve           | Context
-        v                          |                          |
-+-------+---------+       +--------+---------+       +--------+---------+
-|   ETL Pipeline  |------>|     ChromaDB     |------>|  Multi-Persona   |
-| (PyMuPDF/spaCy) |       | (Vector Search)  |       |      Agent       |
-+-----------------+       +------------------+       +--------+---------+
-                                                              |
-                                                              | Generates
-                                                              v
-                                                     +--------+---------+
-                                                     |  Final Research  |
-                                                     |   Paper (.docx)  |
-                                                     +------------------+
++--------------+      +--------------+      +----------------+
+|  Input Data  |      |  Processing  |      |   Knowledge    |
+| (PDFs / API) |----->| (spaCy/Fitz) |----->|   (ChromaDB)   |
++--------------+      +--------------+      +-------+--------+
+                                                    |
+                                             (Context Retrieval)
+                                                    v
++--------------+      +--------------+      +----------------+
+| Final Output |      |    Google    |      |  Multi-Agent   |
+| (DOCX / Rpt) |<-----|  Gemini API  |<-----|    System      |
++--------------+      +--------------+      +----------------+
 
-🛠️ Technical Stack
-Generative AI: RAG Architecture, Google Gemini API, Chain-of-Thought Prompting
-Vector Search: ChromaDB, SentenceTransformers
-Data & NLP: spaCy, PyMuPDF, Pandas, NumPy
-Core: Python 3.x, Threading, NetworkX
+```
 
-📊 Professional Impact
-40% Reduction in manual workload via custom Python automation agents.
-3x Increase in content production efficiency using Generative AI workflows.
-15+ Hours saved weekly through automated data retrieval scripts.
+---
 
-📫 Connect with Me
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+### 🛠️ Technical Stack
+
+* **Generative AI:** RAG Architecture, Google Gemini API, Chain-of-Thought Prompting
+* **Vector Search:** ChromaDB, SentenceTransformers
+* **Data & NLP:** spaCy, PyMuPDF, Pandas, NumPy
+* **Core:** Python 3.x, Threading, NetworkX
+
+---
+
+### 📊 Professional Impact
+
+* **40%** Reduction in manual workload via custom Python automation agents.
+* **3x** Increase in content production efficiency using Generative AI workflows.
+* **15+** Hours saved weekly through automated data retrieval scripts.
+
+---
+
+### 📫 Connect
+
+* **LinkedIn:** [Venkatesh Vungarala](https://www.google.com/url?sa=E&source=gmail&q=https://www.linkedin.com/in/venkatesh-vungarala-376245213)
+* **Email:** venkateshvungarala14@gmail.com
+
+```
+
+```

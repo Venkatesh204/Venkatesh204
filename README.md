@@ -39,6 +39,4 @@ Core: Python 3.x, Threading, NetworkX
 15+ Hours saved weekly through automated data retrieval scripts.
 
 📫 Connect with Me
-* **LinkedIn:** [Venkatesh Vungarala](https://www.linkedin.com/in/venkatesh-vungarala-376245213)
-* **Email:** venkateshvungarala14@gmail.com
-* **Location:** Ongole, Andhra Pradesh, India
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />

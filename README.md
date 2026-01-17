@@ -1,53 +1,38 @@
-```markdown
 # Vungarala Venkatesh
 ### 🤖 AI Developer & Automation Specialist
-*Building RAG Systems & Autonomous Agents with Python & Google Gemini.*
 
----
-
-### 🧠 Featured Project: Scholarly Synthesis Engine
-**An autonomous AI researcher that reads papers, verifies facts, and writes manuscripts.**
-
-#### 🏗️ Architecture Diagram
+#### 🏗️ System Architecture: Scholarly Synthesis Engine
 ```text
-+--------------+      +--------------+      +----------------+
-|  Input Data  |      |  Processing  |      |   Knowledge    |
-| (PDFs / API) |----->| (spaCy/Fitz) |----->|   (ChromaDB)   |
-+--------------+      +--------------+      +-------+--------+
-                                                    |
-                                             (Context Retrieval)
-                                                    v
-+--------------+      +--------------+      +----------------+
-| Final Output |      |    Google    |      |  Multi-Agent   |
-| (DOCX / Rpt) |<-----|  Gemini API  |<-----|    System      |
-+--------------+      +--------------+      +----------------+
-
++------------------+       +------------------+       +------------------+
+|   Data Ingestion |       |   Vector Store   |       |   Agent Logic    |
+| (APIs / PDF Raw) |------>|    (ChromaDB)    |------>| (Google Gemini)  |
++------------------+       +------------------+       +------------------+
+        |                           ^                          ^
+        v                           | Retrieval                | Context
++------------------+                |                          |
+|   Text Chunking  |----------------+                 +------------------+
+| (spaCy/PyMuPDF)  |                                  |   Multi-Persona  |
++------------------+                                  |     Workflow     |
+                                                      +------------------+
+                                                               |
+                                                               v
+                                                      +------------------+
+                                                      |   Final Output   |
+                                                      | (IEEE Manuscript)|
+                                                      +------------------+
 ```
 
----
+### 🧠 About This Architecture
 
-### 🛠️ Technical Stack
+The diagram above represents my **Scholarly Synthesis Engine**, an autonomous AI agent designed to eliminate hallucinations in academic writing.
 
-* **Generative AI:** RAG Architecture, Google Gemini API, Chain-of-Thought Prompting
-* **Vector Search:** ChromaDB, SentenceTransformers
-* **Data & NLP:** spaCy, PyMuPDF, Pandas, NumPy
-* **Core:** Python 3.x, Threading, NetworkX
+* **Ingestion:** The system fetches Open Access PDFs via Semantic Scholar and Unpaywall APIs.
+* **Processing:** It uses **spaCy** and **PyMuPDF** to clean and chunk text, preserving semantic meaning.
+* **Vector Store:** Chunks are embedded using **SentenceTransformers** and stored in **ChromaDB** for high-speed semantic retrieval (RAG).
+* **Agent Logic:** A multi-persona **Google Gemini Pro** agent acts as distinct roles (Researcher, Editor, Reviewer) to draft, refine, and verify the content against the retrieved ground truth.
 
----
+### 📫 Connect & Collaborate
 
-### 📊 Professional Impact
-
-* **40%** Reduction in manual workload via custom Python automation agents.
-* **3x** Increase in content production efficiency using Generative AI workflows.
-* **15+** Hours saved weekly through automated data retrieval scripts.
-
----
-
-### 📫 Connect
-
-* **LinkedIn:** [Venkatesh Vungarala](https://www.google.com/url?sa=E&source=gmail&q=https://www.linkedin.com/in/venkatesh-vungarala-376245213)
-* **Email:** venkateshvungarala14@gmail.com
-
-```
-
-```
+* **LinkedIn:** [Venkatesh Vungarala](https://www.linkedin.com/in/venkatesh-vungarala-376245213)
+* **Email:** [venkateshvungarala14@gmail.com](mailto:venkateshvungarala14@gmail.com)
+* **Focus:** Open to opportunities in **AI Engineering**, **RAG Pipeline Development**, and **Process Automation**.

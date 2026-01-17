@@ -1,9 +1,3 @@
-Here is the corrected **Connect** section for your `README.md`.
-
-I have formatted it with a standard, clickable text link which is the most reliable way to display it on GitHub.
-
-**Copy this code block:**
-
 ```markdown
 # Vungarala Venkatesh
 ### 🤖 AI Developer & Automation Specialist
